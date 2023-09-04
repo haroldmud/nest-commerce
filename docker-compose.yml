@@ -6,7 +6,7 @@ services:
     container_name: mongo
     image: mongo:latest
     environment:
-      - MONGO-DATABASE="amazon"
+      - MONGO-DATABASE=amazon
     ports: 
       - 27017:27017 
 
